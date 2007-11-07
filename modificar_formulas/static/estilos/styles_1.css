@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'segoe';
+    src: url('../fuentes/segoeuil_0.ttf');
+}
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+.chk{
+    display: none;
+}
+.marco_tabla{
+    background-color: #fff5ff;
+    cursor: pointer;
+    height: 100%;
+    margin: 0 2%;
+    outline: none;
+    overflow: auto;
+    width: 96%;
+}
+.marco_tabla::-webkit-scrollbar{
+    -webkit-appearance: none;
+    width: 14px;
+    height: 14px;
+}
+.marco_tabla::-webkit-scrollbar-thumb{
+    border-radius: 8px;
+    border: 3px solid #fff;
+    background-color: rgba(0, 0, 0, 3);
+}
+#art_btn_summit{
+    display: block;
+    min-height: 5%;
+    padding: 5% 0 0 10%;
+}
+#derecho{
+    display: inline-block;
+    background-color: #3498db;
+    border-radius: 0 0 0 20px;
+    float: left;
+    margin: 0 0 0 3%;
+    min-height: 50%;
+    min-width: 27%;
+}
+#conten_radio{
+    display: inline-block;
+    margin-left: 45%;
+    min-height: 2%;
+    width: 30%;
+    padding: 2%;
+}
+#contenedor{
+    display: inline-block;
+    float: left;
+    min-height: 50%;
+    width: 70%
+}
+#espacio_resultado{
+    color: white;
+    display: block;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: 500;
+    margin: 5% 2% 0 2%;
+    text-align: center;
+}
+#formulas_text{
+    margin: 10% 0 10% 0;
+}
+#list_der{
+    text-align: center;
+    display: block;
+    margin: 20px 0 10% 0;
+    min-height: 20px;
+}
+aside ul li{
+    margin-left: 10%;
+    color: white;
+    display: inline;
+}
+body{
+    font-family: segoe;
+}
+header{
+    background-image: url(../img/head.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 270px;
+}
+menu{
+    align-content: center;
+    background-color: #3498db;
+    display: block;
+    margin: 0 auto;
+    min-height: 65px;
+    padding: 0;
+
+    font-family: segoe;
+}
+menu ul{
+    list-style: none;
+    overflow: hidden;
+}
+menu li{
+    display: inline;
+    color: white;
+    float: left;
+    font-size: 20px;
+    padding: 20px;
+    text-align: justify;
+    text-decoration: none;
+}
+menu li:hover{
+    background-color: #2980b9;
+    cursor: pointer;
+}
+ul li{
+    list-style: none;
+}
+table tr, th, td{
+    border: 1px solid black;
+    border-color: black;
+    border-radius: 5px;
+    text-align: center;
+}
+tr:hover{
+    background-color: #2980b9;
+}
